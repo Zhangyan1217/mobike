@@ -1,0 +1,67 @@
+img {
+    width: 100%;
+}
+.item{
+    width: 25%;
+    height: 240px;
+    float: left;
+    background-position: center;
+    background-size: cover;
+    border-left: 2px solid #ffffff;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 0 0 0;
+
+}
+.pic{
+    margin-left: -2px;
+    overflow: hidden;
+}
+.meta-links{
+    width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    height: 140px
+}
+.meta-link{
+    width: 33.33%;
+    background-position: center;
+    float: left;
+    padding: 45px 0 45px 0;
+    margin: 0 auto;
+}
+.text{
+    font-size: 16px;
+    display: inline-block;
+    text-align-last: left;
+    vertical-align: middle;
+}
+p{
+    font-weight: 300;
+}
+h4{
+    font-weight: 400;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: center center;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.meta-link:nth-child(1){
+    text-align: left;
+}
+.meta-link:nth-child(2){
+    text-align: center;
+}
+.meta-link:nth-child(3){
+    text-align: right;
+}
